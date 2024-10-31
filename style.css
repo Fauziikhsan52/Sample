@@ -1,0 +1,80 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: url('background-image.jpg') no-repeat center center fixed;
+    background-size: cover;
+    color: #333;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.8);
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.icon {
+    font-weight: bold;
+    font-size: 2em;
+    margin-right: 10px;
+}
+
+.title {
+    font-family: 'Griffi', sans-serif;
+    font-size: 2.5em;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+}
+
+.big-title {
+    font-size: 2em;
+    margin: 20px 0;
+}
+
+.description {
+    font-size: 1em;
+    margin-bottom: 30px;
+}
+
+.preview-links {
+    display: flex;
+    justify-content: space-around;
+}
+
+.preview {
+    background: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.preview img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: rgba(255, 255, 255, 0.8);
+}
